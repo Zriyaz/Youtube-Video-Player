@@ -1,6 +1,7 @@
 import React from "react"
 import SearchBar from "./SearchBar"
 import youtube from "../API/youtube"
+import VideoList from "./VideoList"
 
 
 const KEY="AIzaSyBPFHYUYJEyX0otOjP0yL2Kx60LCcD-kk4"
@@ -26,7 +27,7 @@ onTermSubmit=async term=>{
     return(
       <div className="ui container">
       <SearchBar onFormSubmit={this.onTermSubmit}/>
-      I have {this.state.videos.length} videso.
+      <VideoList videos={this.state.videos}/>
       </div>
     )
   }
