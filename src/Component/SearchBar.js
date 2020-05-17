@@ -17,7 +17,8 @@ class SearchBar extends React.Component{
       <VideoStyle/>
        <div className="search-bar ui segment">
         <form onSubmit ={this.onFormSubmit}className="ui form">
-         <div className="form">
+         <div className="ui icon input ">
+         <i className="search icon"></i>
           <input type="text" 
           value={this.state.term}
           placeholder="Search" 

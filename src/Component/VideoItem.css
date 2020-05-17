@@ -6,4 +6,9 @@
 .Video-Item.item img{
   max-width: 180px;
 }
+
+Video-Item.alt{
+  background-color: yellow;
+}
+
  

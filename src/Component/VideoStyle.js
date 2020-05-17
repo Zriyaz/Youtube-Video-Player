@@ -4,9 +4,12 @@ import "./VideoStyle.css"
 class VideoStyle extends React.Component{
   render(){
     return(
-      <div className="headerStyle">
-      <h1>Online Video Player App</h1>
-      </div>
+    <div class = "main"> 
+      <marquee class="marq" bgcolor = "pink" direction = "left" loop="" > 
+        <div class="geek1">Youtube</div> 
+        <div class="geek2">Abdul Riyaz</div> 
+      </marquee> 
+    </div> 
     )
   }
 }
