@@ -7,7 +7,7 @@ class VideoStyle extends React.Component{
     <div class = "main"> 
       <marquee class="marq" bgcolor = "pink" direction = "left" loop="" > 
         <div class="geek1">Youtube</div> 
-        <div class="geek2">Abdul Riyaz</div> 
+        <div class="geek2">Abdul Riyaz Kazmi</div> 
       </marquee> 
     </div> 
     )
